@@ -557,7 +557,7 @@ def goal_or_kepper(game, who_shoots):
                 break
             else:
                 print("Invalid input. Please try again.")
-        if goalkepper_input == goalkepper_input:
+        if scorer_input == goalkepper_input:
             print("Goalkeeper saved the shot")
             game.field_pos = 4
             return game
